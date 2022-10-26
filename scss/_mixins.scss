@@ -1,0 +1,9 @@
+
+@mixin toRem($property, $valueInPx) {
+    #{$property}: ($valueInPx / 16) + rem;
+}
+
+@mixin removeLateralPadding() {
+    padding-left: 0;
+    padding-right: 0;
+}
